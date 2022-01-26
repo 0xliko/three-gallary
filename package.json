@@ -49,5 +49,8 @@
   "devDependencies": {
     "babel-plugin-glsl": "^1.0.0",
     "glslify": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=16.8.0"
   }
 }
