@@ -17,7 +17,8 @@ export interface IFramesProps{
     p?: THREE.Vector3
 }
 export interface IFrameProps extends IImage{
+    selectedFrameId: string | undefined,
     url: string,
-    index: number
+    index: number,
     c?:  THREE.Color | undefined
 }
